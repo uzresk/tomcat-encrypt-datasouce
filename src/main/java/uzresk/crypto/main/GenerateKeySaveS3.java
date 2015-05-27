@@ -55,7 +55,7 @@ public class GenerateKeySaveS3 {
 			throw new RuntimeException("invalid resource file.");
 		}
 		System.out
-				.println("KMSにアクセするためのKEYIDを入力して下さい(ex.arn:aws:kms:ap-northeast-1:194851312534:key/c8889211-ae96-4da1-9e85-01e353215a83)");
+				.println("KMSにアクセスするためのKEYIDを入力して下さい(ex.arn:aws:kms:ap-northeast-1:xxxxxxxxx:key/xxxxxxxxxxxxxx)");
 		Scanner scan = new Scanner(System.in);
 		keyId = scan.next();
 
